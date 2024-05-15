@@ -469,6 +469,32 @@ big {
 	font-size: 125%;
 }
 
+.site-title {
+	font-size: 18px;
+}
+
+.entry-title{
+	font-size: 24px;
+}
+
+.widget-title{
+	font-size: 18px
+}
+
+@media  (min-width: 600px){
+	.site-title {
+		font-size: 24px;
+	}
+	.entry-title{
+		font-size: 30px;
+	}
+	.widget-title{
+		font-size: 24px
+	}
+}
+	
+
+
 /* Elements
 --------------------------------------------- */
 body {
@@ -765,6 +791,10 @@ textarea {
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+.hentry{
+	margin-bottom: 50px;
 }
 
 /* Comments
